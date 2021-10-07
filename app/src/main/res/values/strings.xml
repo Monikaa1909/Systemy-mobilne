@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="button_true">Prawda</string>
+    <string name="button_false">Fałsz</string>
+    <string name="button_next">Następne</string>
+    
+    <string name="q_1">Rzut karny jest wykonywany z odległości 11 metrów o linii bramkowej</string>
+    <string name="q_2">Minimalna liczba zawodników na boisku w jednej drużynie to 5</string>
+    <string name="q_3">Zawodnik wykonujący nierozważny atak nogami w nogi przeciwnika zostaje ukarany wykluczeniem</string>
+    <string name="q_4">Zawodnik może dowolnie opuszczać i powracać na pole gry bez zgody sędziego</string>
+    <string name="q_5">Przy rzucie sędziowskim zawodnicy obu drużyn muszą znajdować się w odległości 4 metrów od miejsca jego wykonywania</string>
+    <string name="correct_answer">Poprawna odpowiedź!</string>
+    <string name="incorrect_answer">Błędna odpowiedź!</string>
+</resources>
