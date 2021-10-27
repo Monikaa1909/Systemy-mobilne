@@ -40,6 +40,13 @@
     </LinearLayout>
 
     <Button
+        android:id="@+id/propmt_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:insetLeft="2dp"
+        android:text="@string/button_prompt"
+        app:backgroundTint="#81B574" />
+    <Button
         android:id="@+id/next_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

@@ -7,8 +7,6 @@ g
 7app/src/test/java/com/example/quiz/ExampleUnitTest.java,c\8\c89b029ad1e251c46d669cf75c48d4c1dfae313d
 F
 app/proguard-rules.pro,9\e\9e08934d811afe28fbc77aaa3c0d747b94348db9
-<
-build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
