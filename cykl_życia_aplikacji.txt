@@ -1,0 +1,38 @@
+Piersze uruchomienie aplikacji:
+2021-10-26 18:19:36.194 15365-15365/com.example.quiz D/Main_Activity: Wywołana metoda cyklu życia: onStart()
+2021-10-26 18:19:36.194 15365-15365/com.example.quiz D/Main_Activity: Wywołana metoda cyklu życia: onResume()
+
+Po wciśnięciu przycisku cofnij:
+2021-10-26 18:19:36.194 15365-15365/com.example.quiz D/Main_Activity: Wywołana metoda cyklu życia: onResume()
+2021-10-26 18:20:14.348 15365-15365/com.example.quiz D/Main_Activity: Wywołana metoda cyklu życia: onPause()
+2021-10-26 18:20:15.237 15365-15365/com.example.quiz D/Main_Activity: Wywołana metoda cyklu życia: onResumeStop()
+2021-10-26 18:20:15.240 15365-15365/com.example.quiz D/Main_Activity: Wywołana metoda cyklu życia: onDestroy()
+
+Po ponownym uruchomieniu aplikacji:
+2021-10-26 18:21:28.675 15365-15365/com.example.quiz D/Main_Activity: Wywołana metoda cyklu życia: onStart()
+2021-10-26 18:21:28.676 15365-15365/com.example.quiz D/Main_Activity: Wywołana metoda cyklu życia: onResume()
+
+Po wciśnięciu przycisku ekranu głównego Home:
+2021-10-26 18:21:48.211 15365-15365/com.example.quiz D/Main_Activity: Wywołana metoda cyklu życia: onPause()
+2021-10-26 18:21:49.753 15365-15365/com.example.quiz D/Main_Activity: Wywołana metoda cyklu życia: onResumeStop()
+
+Po powrocie do aplikacji z listy ostatnio używanych aplikacji:
+2021-10-26 18:22:08.490 15365-15365/com.example.quiz D/Main_Activity: Wywołana metoda cyklu życia: onStart()
+2021-10-26 18:22:08.490 15365-15365/com.example.quiz D/Main_Activity: Wywołana metoda cyklu życia: onResume()
+
+Po obróceniu ekranu, aplikacja ponownie wyświetla pierwsze pytanie:
+2021-10-26 18:30:36.050 15365-15365/com.example.quiz D/Main_Activity: Wywołana metoda cyklu życia: onPause()
+2021-10-26 18:30:36.059 15365-15365/com.example.quiz D/Main_Activity: Wywołana metoda cyklu życia: onResumeStop()
+2021-10-26 18:30:36.077 15365-15365/com.example.quiz D/Main_Activity: Wywołana metoda cyklu życia: onDestroy()
+2021-10-26 18:30:36.289 15365-15365/com.example.quiz D/Main_Activity: Wywołana metoda cyklu życia: onStart()
+2021-10-26 18:30:36.290 15365-15365/com.example.quiz D/Main_Activity: Wywołana metoda cyklu życia: onResume()
+
+Po odpowiednim nadpisaniu metod onSaveInstanceState() oraz onCreate(), przy obracaniu ekranu, aplikacja zachowywała swój stan
+i wywoływała kolejno poniższe motody cyklu życia:
+onPause()
+onResumeStop()
+onSaveInstanceState()
+onDestroy()
+onCreate()
+onStart()onResume()
+
